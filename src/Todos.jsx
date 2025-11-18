@@ -34,6 +34,7 @@ export const Todos = () => {
         </label>
         <button>add</button>
       </form>
+      <h3>Incomplete todos</h3>
       <div data-testid="items-list">
         {todos.map((todo, index) => (
           <div
